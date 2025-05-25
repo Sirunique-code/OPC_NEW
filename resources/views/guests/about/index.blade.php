@@ -19,10 +19,10 @@
 
       <!-- Personal Story -->
       <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
-        <h3>Hello! I'm Sarah Mitchell</h3>
-        <p>A final-year Computer Science student at Greenfield University. This plagiarism checker is my capstone project — built with the goal of helping students avoid accidental plagiarism and submit original work with confidence.</p>
+        <h3>Hello! I'm IDRIS SAAD - NDA/13799</h3>
+        <p>A final-year Computer Science student at Nigeria Defence Academy. This plagiarism checker is my capstone project — built with the goal of helping students avoid accidental plagiarism and submit original work with confidence.</p>
 
-        <h4>Our Mission</h4>
+        <h4>Mission</h4>
         <p>After graduation, I plan to open-source this project so other students and developers can build upon it. I also hope to continue working in educational technology, creating tools that support honest writing and lifelong learning for students around the world.</p>
 
         <h4>Why I Built This</h4>
@@ -63,28 +63,23 @@
     </div>
 
     <!-- Meet the Developer -->
-    <div class="row mt-5 text-center">
+    {{-- <div class="row mt-5 text-center">
       <div class="col-12">
         <h3 class="section-title">Meet the Developer</h3>
         <p>Built by a passionate student with a vision for better academic tools</p>
       </div>
       <div class="col-lg-12 d-flex justify-content-center mt-4">
         <div class="member text-center">
-          <div class="pic mb-3">
+          {{-- <div class="pic mb-3">
             <img src="/assets/img/team_1.jpg" class="img-fluid rounded-circle" alt="Sarah Mitchell">
-          </div>
+          </div> 
           <div class="member-info">
-            <h4>Sarah Mitchell</h4>
+            <h4> CDT IDRIS SAAD - NDA/13799</h4>
             <span>Final Year CS Student | Project Creator</span>
-            <div class="social mt-2">
-              <a href="#"><i class="bi bi-github"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-envelope"></i></a>
-            </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
   </div>
 </section>
