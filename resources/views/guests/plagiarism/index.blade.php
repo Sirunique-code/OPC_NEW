@@ -6,7 +6,7 @@
         <div class="section-title plagiarism-checker-title text-center mb-5">
             <span>Check Plagiarism</span>
             <h2>Compare Two Contents</h2>
-            <p>Upload or paste two texts for plagiarism analysis between town content, essays, or any written material.
+            <p>Upload or paste two texts for plagiarism analysis between two content, essays, or any written material.
             </p>
         </div>
 

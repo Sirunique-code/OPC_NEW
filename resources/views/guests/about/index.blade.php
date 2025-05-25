@@ -19,8 +19,8 @@
 
       <!-- Personal Story -->
       <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
-        <h3>Hello! I'm IDRIS SAAD - NDA/13799</h3>
-        <p>A final-year Computer Science student at Nigeria Defence Academy. This plagiarism checker is my capstone project — built with the goal of helping students avoid accidental plagiarism and submit original work with confidence.</p>
+        <h3>I'm NDA/13799 - Oficer Cadet IDRIS SAAD - </h3>
+        <p>A final-year Computer Science cadet at Nigeria Defence Academy. This plagiarism checker is my capstone project — built with the goal of helping students avoid accidental plagiarism and submit original work with confidence.</p>
 
         <h4>Mission</h4>
         <p>After graduation, I plan to open-source this project so other students and developers can build upon it. I also hope to continue working in educational technology, creating tools that support honest writing and lifelong learning for students around the world.</p>

@@ -7,7 +7,7 @@
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
             <h1>Detect Plagiarism in Seconds</h1>
-            <p>Ensure Originality with Our Fast & Accurate Tool</p>
+            <p>Ensure Originality with this Fast & Accurate Tool</p>
             <div class="d-flex">
               <a href="{{ route('check-plagiarism') }}" class="btn-get-started">Get Started</a>
             </div>
@@ -68,7 +68,7 @@
         <span>Who It’s For</span>
         <h2>Who It’s For</h2>
         <p>Our plagiarism checker is trusted by students, educators, writers, and professionals
-                                worldwide to ensure originality and integrity in every piece of content.</p>
+                                 to ensure originality and integrity in every piece of content.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -109,7 +109,7 @@
               <a href="service-details.html" class="stretched-link">
                 <h3>Content Creators</h3>
               </a>
-              <p>Bloggers, copywriters, and business professionals use our tool to verify content
+              <p>Copywriters, and business professionals use our tool to verify content
                                     uniqueness before publishing or sharing it with clients and stakeholders.</p>
             </div>
           </div><!-- End Service Item -->
