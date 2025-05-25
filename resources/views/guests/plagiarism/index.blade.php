@@ -188,21 +188,18 @@
                     }
                 });
             }
-            // Extract text from PDF
             async function extractTextFromPDF(data) {
-                const typedArray = new Uint8Array([...data].map(c => c.charCodeAt(0)));
-                const pdf = await pdfjsLib.getDocument({
-                    data: typedArray
-                }).promise;
-                let fullText = '';
-                for (let i = 1; i <= pdf.numPages; i++) {
-                    const page = await pdf.getPage(i);
-                    const textContent = await page.getTextContent();
-                    const strings = textContent.items.map(item => item.str).join(' ');
-                    fullText += strings + ' ';
-                }
-                return fullText.trim();
-            }
+    const typedArray = new Uint8Array(data); // 👈 Fix is here
+    const pdf = await pdfjsLib.getDocument({ data: typedArray }).promise;
+    let fullText = '';
+    for (let i = 1; i <= pdf.numPages; i++) {
+        const page = await pdf.getPage(i);
+        const textContent = await page.getTextContent();
+        const strings = textContent.items.map(item => item.str).join(' ');
+        fullText += strings + ' ';
+    }
+    return fullText.trim();
+}
 
             // Similarity calculator
             function calculateSimilarity(str1, str2) {
